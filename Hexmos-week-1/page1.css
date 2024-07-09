@@ -1,0 +1,197 @@
+.header{
+    background-color: bisque;
+    height: 100px;
+}
+.header h1{
+    padding-left: 40px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+.button{
+    font-size: larger;
+    margin-top: 20px;
+    background-color: aqua;
+    width: 200px;
+    height: 50px;
+    color: rgb(28, 32, 36);
+    font-weight: bold;
+    margin-left: 20px;    
+}
+.checkboxes a{
+    display: block;
+    margin: 0 auto;
+}
+#Createpoll{
+    margin-left: 0px;
+    width: 200px;
+    text-decoration: none;
+}
+.first-row{
+    background-color: rgb(235, 209, 175);
+    font-weight: bold;
+}
+.parent-container{
+    /* margin-top: 20px; */
+    
+    width :100%;
+    height: 250px;
+    font-size: larger;
+    display: flex;
+    align-self: start;
+    align-items: flex-start;
+    
+
+}
+
+.parent-container {
+    display: flex;
+}
+.checkboxes {
+    width:250px;
+    height: 310px;
+    background-color: beige;
+    padding-left: 20px;
+    margin-left:20px;
+    margin-top: 20px;
+
+}
+
+.checkboxes  .btn-normal{
+    margin-left: 0px;
+}
+.table {
+    width: 100%;
+    font-size: larger;
+    text-align-last: center; 
+}
+#pg1table{
+    margin-top: 20px;
+    
+}
+#pg2table{
+    width:70%;
+    margin-left: 18px;
+    font-size:x-large;
+
+}
+#btn-pg2{
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.table td{
+    border:1px solid black;
+}
+.first-row {
+    font-weight: bold;
+}
+.line {
+    height: 1.5px;
+    border-top: 1px solid rgb(110, 77, 187);
+    background-color: blueviolet;
+}
+
+.question{
+    text-decoration: none;
+    color: black;
+}
+.heading{
+    text-align: justify;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+/* page 3-- styling */
+
+#radio{
+    margin-left: 20px;
+    padding-left: 20px;
+}
+/* page 4*/
+.cointainer-pg4{
+    background-color: beige;
+    width :51%;  
+}
+.cointainer-pg4 h1{
+    padding-left: 30px;
+}
+#qsn{
+    text-align: justify;
+    padding-top: 20px;
+}
+#btn-pg4{
+    margin-top: 0px;
+    
+}
+.cointainer-pg4 input{
+    font-size: larger;
+    width: 750px;  
+    height: 35px; 
+    margin: 10px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.btn-normal{
+    width: 160px;
+    font-size: larger;
+    background-color: aqua;
+    margin-left: 20px;
+}
+.para{
+    font-size: larger;
+    text-align: justify;
+    padding: 20px;
+}
+/*page 1 media query start   */
+@media only screen and (max-width: 600px) {
+    .parent-container { 
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: auto;
+        
+
+    }
+    #pg1table{
+        width: 100%;
+        margin-top: 20px;
+        margin-right:0px;;
+        margin-left: 30px;
+        font-size: medium;
+        align-self: center;
+    }
+    #pg2table{
+        width: 100%;
+    }
+    
+}
+@media only screen and (min-width: 600px) {
+    .parent-container { 
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+     }
+    #pg1table{
+        width: 80%;
+        margin-top: 20px;
+        margin-right: 70px;
+        margin-left: 20px;
+    }
+   
+}
+/* page 1 media query end */
+
+/* page 4 media query start */
+@media only screen and (max-width: 600px){
+    .cointainer-pg4 input{
+
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .cointainer-pg4{
+        background-color: beige;
+        width :100%;  
+    }
+
+}
