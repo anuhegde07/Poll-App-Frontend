@@ -1,0 +1,448 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header{
+    background-color: rgb(212, 212, 208);
+    height: 110px;
+    width: 105%;
+}
+.header h1{
+    padding-left: 40px;
+    margin-top: 0px;
+    padding-top: 30px;
+    font-size:45px;
+}
+.button{
+    font-size:medium;
+    background-color: aqua;
+    width: 200px;
+    height: 40px;
+    color: rgb(28, 32, 36);
+    font-weight: bold;
+    margin-left: 20px;    
+}
+.checkboxes a{
+    display: block;
+    margin: 0 auto;
+}
+.checkbox-group {
+  display: block;
+  padding: 5px;
+}
+#Createpoll{
+    margin-left:20px;
+    margin-top: 20px;
+    width: 200px;
+    text-decoration: none;
+}
+
+.title{
+    font-size: larger;
+}
+.first-row{
+    background-color: rgb(235, 209, 175);
+    font-weight: bold;
+}
+.parent-container{
+    /* margin-top: 20px; */
+    width :100%;
+    height: 250px;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    align-items: flex-start;
+}
+
+.parent-container {
+    display: flex;
+}
+.checkboxes {
+    width:180px;
+    height: 90%; 
+    background-color: beige;
+    padding-left: 20px;
+    margin-left:20px;
+    margin-top: 0px;
+}
+
+.checkboxes  .btn-normal{
+    margin-left: 0px;
+}
+.table {
+    font-size: large;
+    text-align-last: left; 
+    margin-top:5px;
+    /* margin-left:20px; */
+    align-items:center;
+}
+
+#pg2table{
+    display:flex;
+    flex-direction:row;
+}
+
+.tables{
+    padding-right: 50px;
+
+}
+  
+#piechart{
+   width:90%; 
+   height: 90%;
+  margin-top: 10px;
+
+}
+#pg1table{
+    margin-top: 25px;
+    overflow-x: auto;
+}
+#pg2table{
+    width:40%;
+    margin-left: 18px;
+    font-size:larger;
+    align-items: flex-start;
+
+}
+#btn-pg2{
+    margin-top: 20px;
+    margin-bottom: 45px;
+    padding: 4px;
+    width: fit-content;
+}
+.table td{
+    border:1px solid black;
+    padding-left: 10px;
+}
+.table thead{
+    border:1px snow black;
+    font-size:large;
+    padding-left: 15px;
+}
+
+.first-row {
+    font-weight: bold;
+    border:1px solid black;
+}
+.line {
+    height: 1.5px;
+    border-top: 1px solid rgb(110, 77, 187);
+    background-color: blueviolet;
+}
+
+.question{
+    text-decoration: none;
+    color: black;
+}
+.heading{
+    text-align: justify;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+/* piechart styling */
+
+.radio{
+    margin-left: 17px;
+    font-size: larger;
+}
+
+.cointainer-pg4{
+    background-color: beige;
+    width :400px;  
+    /* height:30em; */
+    margin-left: 10px;
+}
+
+.container-pg4 h1{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#qsn{
+    text-align: justify;
+    padding-top: 30px;
+}
+#btn-normal-pg4{
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+#btn-pg4{
+    margin-left: 30px;    
+}
+.options{
+  padding-bottom: 10px;
+  width: 80%;
+}
+.cointainer-pg4 input{
+    font-size: large;
+    width: 70vh;  
+    height: 5vh; 
+    padding-left: 20px;
+    margin-left: 30px;
+    padding-bottom: 2px;
+}
+#question-tag-input{
+    width: 40%;
+    margin-top: 5px;
+}
+
+.btn-normal{
+    width: 160px;
+    font-size: larger;
+    background-color: aqua;
+    margin-left: 20px;
+}
+.para{
+    font-size: large;
+    text-align: justify;
+    padding-left: 1px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+   }
+   
+   .input-container input {
+    padding-right: 10px; /* Adjust based on the size of your "X" button */
+   }
+   
+   .delete-btn {
+    position: absolute;
+    left: 200px;
+    bottom: 6px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size:larger;
+    color:rgb(250, 6, 6);
+   }
+   .container{
+    display:inline-block;
+    width:60vh;
+    height:5vh;
+       }
+    .Question{
+        color:blue;
+    }
+/*page 1 media query start   */
+@media only screen and (max-width: 320px) {
+    .header h1{
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 20px;
+        font-size:40px;
+    }
+    .header{
+        background-color: rgb(212, 212, 208);
+        /* height: 100%; */
+        width:100%;
+    }
+    .heading{
+        font-size:30px;
+    }
+    /* .table {
+        width:100%;
+        font-size: large;
+        text-align-last: left; 
+        align-items:center;
+        overflow-x: auto;
+    }*/
+    .parent-container {  
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+     #pg1table{
+        width: 100%;
+        /* height: 100%; */
+        /* margin-top: 20px; */
+        /* margin-right:10px; */
+        font-size: medium;
+        align-self: center;
+    overflow-x: auto;
+        
+    }  
+
+    .delete-btn {
+        position: absolute;
+        left: 20em;
+        /* bottom: 5%; */
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-size:larger;
+        color:rgb(250, 6, 6);
+       }
+       .cointainer-pg4 input{
+        font-size: large;
+        width: 160px;  
+        height: 40px; 
+        margin: 10px;
+        padding-left: 20px;
+        margin-left: 30px;
+    }
+    #pg2table{
+        display:flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        margin: auto;
+        align-items: flex-start;
+        /* width: 80%; */
+    }
+    
+    .tables{
+        padding-right: 50px;
+    }
+    
+    .piechart{
+       width:300px; 
+       height: 80%;
+      size: 80px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .parent-container { 
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+     }
+
+    #pg1table{
+        width: 100%;
+        /* height: 100%; */
+        margin-top: 20px;
+        margin-right: 70px;
+        margin-left: 20px;
+        /* font-size: large; */
+        /* align-self: center; */
+    overflow-x: auto;
+
+    }
+    #pg2table{
+        width: 65%;
+    }
+    #question-tag-input{
+        width: 75%;
+    }
+    .delete-btn {
+        position: absolute;
+        left: 330px;
+        bottom: 5px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-size:larger;
+        color:rgb(250, 6, 6);
+       }
+/* page 1 media query end */
+
+/* page 2 media query and flexbox */
+.PollDetail{
+    display: flex;
+   
+}}
+@media only screen and (max-width: 800px){
+    .PollDetail{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+       
+    }
+    #pg2table{
+        width:80%;
+        margin-left: 18px;
+        font-size:larger;
+    
+    }
+    .cointainer-pg4{
+        background-color: beige;
+        width :100%;  
+    }
+    #question-tag-input{
+        width: 70%;
+    }
+    .cointainer-pg4 input{
+        width: 130%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .delete-btn {
+        position: absolute;
+        left: 270px;
+        bottom: 5px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-size:larger;
+        color:rgb(250, 6, 6);
+       }
+    /* .piechart{
+        height: 100%;
+        width: 100%;
+    } */
+}
+
+@media only screen and (max-width: 600px){
+    .cointainer-pg4 input{
+        width: 125%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .cointainer-pg4{
+        background-color: beige;
+        width :100%;  
+    }
+    #question-tag-input{
+        width: 60%;
+    }
+
+}
+
+/* context learning */
+.box{
+    border:3px solid;
+    padding: 25px;
+}
